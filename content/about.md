@@ -24,3 +24,5 @@ Built with [Hugo](https://gohugo.io/) and [PaperMod](https://github.com/adityate
 The source lives at [lcz24/lcz24.github.io](https://github.com/lcz24/lcz24.github.io) and is built and deployed by GitHub Actions on every push.
 
 Subscribe via [RSS](/index.xml) if you want new posts in a reader.
+
+> You can edit this page directly on GitHub: `content/about.md`.
