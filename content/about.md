@@ -1,8 +1,8 @@
 ---
-title: "关于"
+title: "About"
 url: "/about/"
 date: 2020-03-01
-summary: "关于本站"
+summary: "About this site"
 hideMeta: true
 ShowToc: false
 ShowBreadCrumbs: false
@@ -10,19 +10,21 @@ ShowReadingTime: false
 ShowWordCount: false
 ---
 
-## 关于我
+## About me
 
-我是 **lcz**,目前主要折腾网络空间安全与自动化。
+I'm **lcz**. Most of my time goes into offensive security and automation — building tooling, breaking things in labs, and writing down what I learn along the way.
 
-- GitHub:[lcz24](https://github.com/lcz24)
-- 邮箱:[634206017@qq.com](mailto:634206017@qq.com)
+- GitHub: [lcz24](https://github.com/lcz24)
+- Email: [a1443567234@gmail.com](mailto:a1443567234@gmail.com)
 
-## 关于本站
+## About this site
 
-用 [Hugo](https://gohugo.io/) + [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 搭建,
-源码在 [lcz24/lcz24.github.io](https://github.com/lcz24/lcz24.github.io),
-由 GitHub Actions 自动构建并发布。
+Built with [Hugo](https://gohugo.io/) and [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
 
-站内文章以英文技术笔记为主,涵盖渗透测试、漏洞分析与检测工程。
+The source lives at [lcz24/lcz24.github.io](https://github.com/lcz24/lcz24.github.io) and is built and deployed by GitHub Actions on every push.
 
-> 本页内容可以直接在 GitHub 上修改:`content/about.md`。
+Posts are technical notes in English covering penetration testing, vulnerability analysis, and detection engineering. Everything here comes from lab work and public research — no client data, ever.
+
+Subscribe via [RSS](/index.xml) if you want new posts in a reader.
+
+> You can edit this page directly on GitHub: `content/about.md`.

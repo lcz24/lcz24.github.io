@@ -1,10 +1,10 @@
 ---
-title: "搜索"
+title: "Search"
 layout: "search"
 url: "/search/"
 date: 2020-03-01
-summary: "搜索本站内容"
-placeholder: "输入关键词搜索…"
+summary: "Search all posts"
+placeholder: "Search posts…"
 ShowToc: false
 ShowBreadCrumbs: false
 ---

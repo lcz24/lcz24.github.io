@@ -1,9 +1,11 @@
+# Site configuration. Full option reference: https://gohugo.io/configuration/all/
+# Commit to master and GitHub Actions rebuilds and deploys the site automatically.
 baseURL = "https://book.llcczz.org/"
-locale = "zh-CN"
-defaultContentLanguage = "zh-cn"
-title = "lcz 的博客"
+locale = "en-US"
+defaultContentLanguage = "en"
+title = "lcz's Blog"
 theme = "PaperMod"
-hasCJKLanguage = true
+hasCJKLanguage = false
 
 enableRobotsTXT = true
 enableEmoji = true
@@ -20,7 +22,7 @@ enableEmoji = true
 
 [params]
   env = "production"
-  description = "lcz 的技术笔记"
+  description = "Notes on penetration testing, vulnerability research, and detection engineering."
   author = "lcz"
   DateFormat = "2006-01-02"
   defaultTheme = "auto"
@@ -37,8 +39,8 @@ enableEmoji = true
   comments = false
 
   [params.homeInfoParams]
-    Title = "Hi, 我是 lcz 👋"
-    Content = "这里记录技术笔记、安全研究与一些折腾。"
+    Title = "Hi, I'm lcz 👋"
+    Content = "Notes on penetration testing, vulnerability research, and detection engineering."
 
   [params.assets]
     favicon = "/favicon.svg"
@@ -47,7 +49,7 @@ enableEmoji = true
 
   [params.editPost]
     URL = "https://github.com/lcz24/lcz24.github.io/edit/master/content/"
-    Text = "在 GitHub 上编辑此页"
+    Text = "Edit this page on GitHub"
     appendFilePath = true
 
   [[params.socialIcons]]
@@ -56,7 +58,7 @@ enableEmoji = true
 
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:634206017@qq.com"
+    url = "mailto:a1443567234@gmail.com"
 
   [[params.socialIcons]]
     name = "rss"
@@ -65,31 +67,31 @@ enableEmoji = true
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name = "文章"
+    name = "Posts"
     url = "/posts/"
     weight = 10
 
   [[menu.main]]
     identifier = "archives"
-    name = "归档"
+    name = "Archives"
     url = "/archives/"
     weight = 20
 
   [[menu.main]]
     identifier = "search"
-    name = "搜索"
+    name = "Search"
     url = "/search/"
     weight = 30
 
   [[menu.main]]
     identifier = "tags"
-    name = "标签"
+    name = "Tags"
     url = "/tags/"
     weight = 40
 
   [[menu.main]]
     identifier = "about"
-    name = "关于"
+    name = "About"
     url = "/about/"
     weight = 50
 
