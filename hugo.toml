@@ -1,0 +1,105 @@
+baseURL = "https://book.llcczz.org/"
+locale = "zh-CN"
+defaultContentLanguage = "zh-cn"
+title = "lcz 的博客"
+theme = "PaperMod"
+hasCJKLanguage = true
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params]
+  env = "production"
+  description = "lcz 的技术笔记"
+  author = "lcz"
+  DateFormat = "2006-01-02"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  TocOpen = false
+  ShowWordCount = true
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "Hi, 我是 lcz 👋"
+    Content = "这里记录技术笔记、安全研究与一些折腾。"
+
+  [params.assets]
+    favicon = "/favicon.svg"
+    theme_color = "#4f46e5"
+    msapplication_TileColor = "#4f46e5"
+
+  [params.editPost]
+    URL = "https://github.com/lcz24/lcz24.github.io/edit/master/content/"
+    Text = "在 GitHub 上编辑此页"
+    appendFilePath = true
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/lcz24"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:634206017@qq.com"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 50
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
+    guessSyntax = true
+    lineNos = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
